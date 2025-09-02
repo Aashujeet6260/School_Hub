@@ -1,7 +1,10 @@
 import SchoolCard from '@/components/SchoolCard'
 
 async function getSchools() {
-  const base = process.env.NEXT_PUBLIC_BASE_URL || ''
+  const base = process.env.NEXT_PUBLIC_BASE_URL || 
+             (typeof window !== 'undefined' 
+                ? `${window.location.protocol}//${window.location.host}` 
+                : 'http://localhost:3000');
   const res = await fetch("http://localhost:3000/api/schools", {
   cache: "no-store", // optional, prevents caching in dev
 });
