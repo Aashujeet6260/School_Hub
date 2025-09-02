@@ -80,3 +80,18 @@ tsconfig.json
 1. The Add School page submits a `multipart/form-data` POST to `/api/schools`.
 2. The API route validates fields, writes the uploaded image to `public/schoolImages/`, and saves a row in MySQL using Prisma.
 3. The Show Schools page fetches data from the API and renders a responsive grid, like a product gallery.
+
+
+
+#Screen-Shots
+<img width="1920" height="1080" alt="Screenshot (379)" src="https://github.com/user-attachments/assets/473cf773-9650-4800-8b7d-d79be3908c8c" />
+<img width="1920" height="1080" alt="Screenshot (380)" src="https://github.com/user-attachments/assets/6d96449d-9121-4e4c-85f5-19b074b4aab7" />
+<img width="1920" height="1080" alt="Screenshot (381)" src="https://github.com/user-attachments/assets/ed1a6f09-33a8-441f-863b-d85fdc631547" />
+<img width="1920" height="1080" alt="Screenshot (382)" src="https://github.com/user-attachments/assets/a15e5784-8632-4eef-bfd3-6ffd349c9fb8" />
+
+
+
+
+
+
+
