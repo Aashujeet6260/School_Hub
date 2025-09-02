@@ -1,0 +1,1 @@
+Uploads will be saved into public/schoolImages at runtime.
